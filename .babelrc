@@ -1,0 +1,11 @@
+{
+  "presets": ["env", "react"],
+  "env": {
+    "server": {
+      "plugins": ["transform-class-properties", "transform-runtime", "dynamic-import-node"]
+    },
+    "client": {
+      "plugins": ["transform-runtime", "transform-class-properties"]
+    }
+  }
+}
